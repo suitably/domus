@@ -3,6 +3,6 @@
   "private": true,
   "description": "The one place that pins the wrangler version of the deploy job; not a workspace, so npm ci of the project does not install it.",
   "devDependencies": {
-    "wrangler": "4.158.0"
+    "wrangler": "4.163.0"
   }
 }
