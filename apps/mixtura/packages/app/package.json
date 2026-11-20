@@ -19,7 +19,7 @@
     "e2e": "node e2e/walk.mjs 360 720 && node e2e/walk.mjs 1200 800 && node e2e/store.mjs 360 720 && node e2e/store.mjs 1200 800 && node e2e/exchange.mjs 360 720 && node e2e/exchange.mjs 1200 800 && node e2e/share.mjs 360 720 && node e2e/share.mjs 1200 800 && node e2e/browse.mjs 360 720 && node e2e/browse.mjs 1200 800 && node e2e/list-keys.mjs 360 720 && node e2e/list-keys.mjs 1200 800 && node e2e/stock.mjs 360 720 && node e2e/stock.mjs 1200 800 && node e2e/spaces.mjs 360 720 && node e2e/spaces.mjs 1200 800 && node e2e/swap.mjs 360 720 && node e2e/swap.mjs 1200 800 && node e2e/editor.mjs 360 720 && node e2e/editor.mjs 1200 800 && node e2e/versions.mjs 360 720 && node e2e/versions.mjs 1200 800 && node e2e/spec-stock.mjs 360 720 && node e2e/spec-stock.mjs 1200 800 && node e2e/shelf-variants.mjs 360 720 && node e2e/shelf-variants.mjs 1200 800 && node e2e/substitutes.mjs 360 720 && node e2e/substitutes.mjs 1200 800 && node e2e/save-interrupt.mjs 360 720 && node e2e/save-interrupt.mjs 1200 800 && node e2e/alcohol.mjs 360 720 && node e2e/alcohol.mjs 1200 800 && node e2e/a11y.mjs 360 720 && node e2e/a11y.mjs 1200 800 && node e2e/reflow.mjs && node e2e/breakpoint.mjs && node e2e/subpath.mjs && node e2e/no-sw.mjs && node e2e/index-redirect.mjs 360 720 && node e2e/update.mjs && node e2e/two-tabs.mjs && node e2e/csp.mjs 360 720 && node e2e/csp.mjs 1200 800"
   },
   "devDependencies": {
-    "ajv": "8.17.1",
+    "ajv": "8.20.0",
     "fake-indexeddb": "6.2.8"
   }
 }
