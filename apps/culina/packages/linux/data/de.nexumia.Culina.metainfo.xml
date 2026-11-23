@@ -43,7 +43,29 @@
     <control>keyboard</control>
     <control>touch</control>
   </supports>
+  <screenshots>
+    <screenshot type="default">
+      <caption>Choose what to cook from the classics</caption>
+      <image>https://github.com/suitably/domus/releases/download/culina-v0.2.0/dishes-phone-light.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Choose what to cook from the classics</caption>
+      <image>https://github.com/suitably/domus/releases/download/culina-v0.2.0/dishes-desktop-light.png</image>
+    </screenshot>
+  </screenshots>
   <releases>
+    <release version="0.2.0" date="2026-11-23">
+      <description>
+        <ul>
+          <li>The first page is Cook: every dish in one list under the filter, with a switch "Only with what I have" (only the dishes the stock covers completely) and the order "Use up first" (the dishes that use an item with a use-by date set in the web app come first), and the stock in the bottom bar; the page "What can I cook" with its choice "lacking at most" is gone, as in the web app.</li>
+          <li>The preferences can create a space, kept in step through a GitHub repository or a WebDAV folder, and leave a space after a confirmation that says what is deleted on this device and what stays in the storage.</li>
+          <li>The first page lists every dish at once with the filter "what you feel like" (character, course, cuisine, without meat and fish, only with every amount) in place of the pages by country.</li>
+          <li>Report a Problem… in the main menu sends a problem or an idea as a GitHub issue, with your own token or through the filled-in issue form in the browser; About links to that form.</li>
+          <li>The app's page in the software centre shows screenshots.</li>
+          <li>The text fields of the preferences take the keyboard on a tap of a finger only, so a drag that starts on one scrolls the preferences; a mouse works as before. Not tried on a phone.</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.1.0" date="2026-11-21">
       <description>
         <p>Cook's Notebook is now also an app for Linux phones and desktops: browse the classics by country, set the portions, cook step by step and see what you can cook from your stock.</p>
