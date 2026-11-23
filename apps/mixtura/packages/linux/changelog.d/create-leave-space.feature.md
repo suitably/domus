@@ -1,1 +1,0 @@
-The preferences can create a space, kept in step through a GitHub repository or a WebDAV folder, and leave a space after a confirmation that says what is deleted on this device and what stays in the storage.

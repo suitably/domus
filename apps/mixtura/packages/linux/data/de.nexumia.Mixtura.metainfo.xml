@@ -36,7 +36,27 @@
     <control>keyboard</control>
     <control>touch</control>
   </supports>
+  <screenshots>
+    <screenshot type="default">
+      <caption>All drinks, with what is missing for each</caption>
+      <image>https://github.com/suitably/domus/releases/download/mixtura-v0.2.0/drinks-phone-light.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>All drinks, with what is missing for each</caption>
+      <image>https://github.com/suitably/domus/releases/download/mixtura-v0.2.0/drinks-desktop-light.png</image>
+    </screenshot>
+  </screenshots>
   <releases>
+    <release version="0.2.0" date="2026-11-23">
+      <description>
+        <ul>
+          <li>The preferences can create a space, kept in step through a GitHub repository or a WebDAV folder, and leave a space after a confirmation that says what is deleted on this device and what stays in the storage.</li>
+          <li>Report a Problem… in the main menu sends a problem or an idea as a GitHub issue, with your own token or through the filled-in issue form in the browser; About links to that form.</li>
+          <li>The app's page in the software centre shows screenshots.</li>
+          <li>The text fields of the preferences take the keyboard on a tap of a finger only, so a drag that starts on one scrolls the preferences; a mouse works as before. Not tried on a phone.</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.1.0" date="2026-11-21">
       <description>
         <p>Drink Builder is now also an app for Linux phones and desktops: browse the drinks, mark your bottles and see what you can make.</p>
