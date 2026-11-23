@@ -37,14 +37,23 @@
   <screenshots>
     <screenshot type="default">
       <caption>The shopping list, sorted by when it is needed</caption>
-      <image>https://github.com/suitably/domus/releases/download/emptio-v0.2.1/list-phone-light.png</image>
+      <image>https://github.com/suitably/domus/releases/download/emptio-v0.3.0/list-phone-light.png</image>
     </screenshot>
     <screenshot>
       <caption>The shopping list, sorted by when it is needed</caption>
-      <image>https://github.com/suitably/domus/releases/download/emptio-v0.2.1/list-desktop-light.png</image>
+      <image>https://github.com/suitably/domus/releases/download/emptio-v0.3.0/list-desktop-light.png</image>
     </screenshot>
   </screenshots>
   <releases>
+    <release version="0.3.0" date="2026-11-23">
+      <description>
+        <ul>
+          <li>The preferences can create a space, kept in step through a GitHub repository or a WebDAV folder, and leave a space after a confirmation that says what is deleted on this device and what stays in the storage.</li>
+          <li>Report a Problem… in the main menu sends a problem or an idea as a GitHub issue, with your own token or through the filled-in issue form in the browser; About links to that form.</li>
+          <li>Lists with text fields scroll on a phone: a touch that starts a drag on a field, such as a category name, no longer focuses the field and opens the keyboard; a tap still edits it, and a mouse works as before. Checked in GTK's Broadway backend, which has no on-screen keyboard: the check is that the drag focused no field, not how far the list moved.</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.2.1" date="2026-11-22">
       <description>
         <ul>

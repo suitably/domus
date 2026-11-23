@@ -1,1 +1,0 @@
-Lists with text fields scroll on a phone: a touch that starts a drag on a field, such as a category name, no longer focuses the field and opens the keyboard; a tap still edits it, and a mouse works as before. Checked in GTK's Broadway backend, which has no on-screen keyboard: the check is that the drag focused no field, not how far the list moved.
