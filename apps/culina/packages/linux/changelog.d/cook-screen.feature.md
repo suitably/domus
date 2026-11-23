@@ -1,1 +1,0 @@
-The first page is Cook: every dish in one list under the filter, with a switch "Only with what I have" (only the dishes the stock covers completely) and the order "Use up first" (the dishes that use an item with a use-by date set in the web app come first), and the stock in the bottom bar; the page "What can I cook" with its choice "lacking at most" is gone, as in the web app.
