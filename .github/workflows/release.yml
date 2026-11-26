@@ -44,7 +44,7 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
-    uses: nexumia-de/phosh-toolkit/.github/workflows/release.yml@908ab9499274b6a0639df0693a0d6b8d4bdcfbee # v0.6.0
+    uses: nexumia-de/phosh-toolkit/.github/workflows/release.yml@1910057162098f0963b44623e91b3650f685c49b # v0.8.1
     with:
       version: ${{ inputs.version }}
       release-config: apps/emptio/packages/linux/release.toml
@@ -57,7 +57,7 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
-    uses: nexumia-de/phosh-toolkit/.github/workflows/release.yml@908ab9499274b6a0639df0693a0d6b8d4bdcfbee # v0.6.0
+    uses: nexumia-de/phosh-toolkit/.github/workflows/release.yml@1910057162098f0963b44623e91b3650f685c49b # v0.8.1
     with:
       version: ${{ inputs.version }}
       release-config: apps/mixtura/packages/linux/release.toml
@@ -70,7 +70,7 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
-    uses: nexumia-de/phosh-toolkit/.github/workflows/release.yml@908ab9499274b6a0639df0693a0d6b8d4bdcfbee # v0.6.0
+    uses: nexumia-de/phosh-toolkit/.github/workflows/release.yml@1910057162098f0963b44623e91b3650f685c49b # v0.8.1
     with:
       version: ${{ inputs.version }}
       release-config: apps/culina/packages/linux/release.toml
