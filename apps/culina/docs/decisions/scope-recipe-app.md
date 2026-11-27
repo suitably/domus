@@ -10,6 +10,12 @@ sources:
 
 # Culina is a recipe app with history, ideas and bases to build on
 
+**Note of 2026-11-27:** the purpose of point 1 and the goal of point 3
+to cover every common base are replaced by the
+[daily driver decision](daily-driver.md): Culina is a daily driver to
+build dishes, with sourced pairing ratings and a taste profile. Versions,
+tasting notes, the import and the bases built so far stand.
+
 ## Context
 
 The [helper decision](mentor.md) of 2026-11-18 made Culina a helper that

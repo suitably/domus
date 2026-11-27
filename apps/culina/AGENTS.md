@@ -1,11 +1,12 @@
 # Culina
 
-A recipe app: the user's recipes with versions, tasting notes and
-history, ideas what to cook, and shipped bases (sauces, doughs, frames
-such as tacos or pizza) to build one's own dishes on
-([decision](docs/decisions/scope-recipe-app.md)); scripted, without a
-language model; sourced technique notes, substitutes and ratios as
-help ([helper](docs/decisions/mentor.md)). Visible name:
+A daily driver for cooking: ideas fast, dishes clicked together from
+components, ratings of what goes well together from sourced data, and
+a taste profile of the dish
+([decision](docs/decisions/daily-driver.md)); the user's recipes keep
+versions and tasting notes; scripted, without a language model;
+sourced technique notes, substitutes and ratios teach on the side
+([helper](docs/decisions/mentor.md)). Visible name:
 **Cook's Notebook** ([decision](docs/decisions/app-name.md)). Knowledge
 of this repository: [docs/index.md](docs/index.md).
 
@@ -40,7 +41,13 @@ its own `AGENTS.md`. Its sister app for drinks,
   marked as a judgement. Teaching notes belong to skills; a skill the user
   marked as learned is not taught again.
 - **Sources and licences.** Every ratio, pairing and data set names its
-  source and licence. No data from FlavorDB or RecipeNLG.
+  source and licence. Culina is non-commercial, so non-commercial
+  data such as FlavorDB is allowed
+  ([decision](docs/decisions/daily-driver.md)); no data from RecipeNLG.
+- **Ratings are hints with a source.** A pairing rating names its data
+  set or work, its confidence and one sentence why; never computed from
+  co-occurrence in the shipped recipes. A taste dimension without data
+  is unknown, never guessed.
 - No code copied from Mixtura or materia.
 
 ## Before committing

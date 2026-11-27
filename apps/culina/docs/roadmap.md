@@ -60,7 +60,16 @@ in [how chefs work](chef-practice.md) and
    for a source).
 8. **Bases.** Sauces, doughs and frames (tacos, pizza, curry, …) as
    components with slots, each from a named source, for the user's own
-   creations ([decision](decisions/scope-recipe-app.md)). Regional
-   classics are on hold.
-9. **Later.** Curated affinities with sources, cost, prep lists,
-   allergens.
+   creations ([decision](decisions/scope-recipe-app.md)). Part 1 done
+   on 2026-11-23. Since 2026-11-27 only as far as building needs them,
+   no longer every common base ([decision](decisions/daily-driver.md)).
+   Regional classics are on hold.
+9. **Daily driver: pairing and taste profile** (decided 2026-11-27,
+   [decision](decisions/daily-driver.md)). In this order: pairing data
+   with source and licence (FlavorDB or a cited alternative, into the
+   existing affinity); pairing ratings with their reason while building
+   a dish; a taste profile of the dish (sweet, salty, fat from the
+   USDA catalogue; sour, bitter, umami, heat from a sourced table, else
+   unknown). This goal comes before goals 6 and 8.
+10. **Later.** Curated affinities with sources, cost, prep lists,
+    allergens.

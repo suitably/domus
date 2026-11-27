@@ -118,7 +118,7 @@ or rereading the sources of the shipped dishes.
 - **Cost**: large. No data set with a usable licence has been found or
   checked for this.
 - **Touches**: the rule "every data set names its source and licence" and
-  the exclusion of FlavorDB ([AGENTS.md](../AGENTS.md)). A table filled
+  FlavorDB, allowed since 2026-11-27 ([daily driver](decisions/daily-driver.md)). A table filled
   by the project is a judgement and says so in each row, as the character
   table does.
 

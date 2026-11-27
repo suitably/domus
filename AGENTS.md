@@ -8,16 +8,16 @@ The household apps and what they share, in one repository
 own `AGENTS.md`, which apply in addition to this file when you work
 there.
 
-| Folder           | What                                                                                    |
-| ---------------- | --------------------------------------------------------------------------------------- |
-| `packages/model` | materia, the general model: pure, no domain, no host API                                |
-| `packages/host`  | hospes, the host code two apps need: sync cipher, WebDAV adapter                        |
-| `packages/gjs`   | gjs, what the native Linux apps share: Web Crypto subset, libsoup fetch, files, tooling |
-| `apps/mixtura`   | Mixtura (Drink Builder), a workbench for mixed drinks, with a native Linux app          |
-| `apps/culina`    | Culina (Cook's Notebook), a recipe app with history, ideas and bases to build on        |
-| `apps/emptio`    | Emptio (Shopping List), the household's shopping list, with a native Linux app          |
-| `apps/domus`     | Household (`@domus/app`): the app at the root of the address, where sync is set up      |
-| `scripts`        | checks and the site build that span the parts                                           |
+| Folder           | What                                                                                     |
+| ---------------- | ---------------------------------------------------------------------------------------- |
+| `packages/model` | materia, the general model: pure, no domain, no host API                                 |
+| `packages/host`  | hospes, the host code two apps need: sync cipher, WebDAV adapter                         |
+| `packages/gjs`   | gjs, what the native Linux apps share: Web Crypto subset, libsoup fetch, files, tooling  |
+| `apps/mixtura`   | Mixtura (Drink Builder), a workbench for mixed drinks, with a native Linux app           |
+| `apps/culina`    | Culina (Cook's Notebook), a daily driver to build dishes, with pairing and taste profile |
+| `apps/emptio`    | Emptio (Shopping List), the household's shopping list, with a native Linux app           |
+| `apps/domus`     | Household (`@domus/app`): the app at the root of the address, where sync is set up       |
+| `scripts`        | checks and the site build that span the parts                                            |
 
 These are web apps (PWA) and libraries, not GTK apps; the GTK rules do
 not apply. The exception is an app's native Linux package

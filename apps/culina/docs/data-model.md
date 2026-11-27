@@ -623,7 +623,8 @@ dates as suggestions and the user chooses.
 
 Later extension, schema only: two ingredients that go together. Schema:
 `affinity.schema.json`. No code and no data before the pairing work;
-data would need a source and licence of its own (no FlavorDB).
+data would need a source and licence of its own (non-commercial data such as
+FlavorDB is allowed since 2026-11-27, [daily driver](decisions/daily-driver.md)).
 
 | Field        | Type    | Required | Meaning                                                   |
 | ------------ | ------- | -------- | --------------------------------------------------------- |

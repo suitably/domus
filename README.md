@@ -4,7 +4,7 @@ The household apps of one author and what they share, in one
 repository:
 
 - [Mixtura](apps/mixtura) (Drink Builder): a workbench for mixed drinks.
-- [Culina](apps/culina) (Cook's Notebook): a recipe app with history, ideas and bases to build on.
+- [Culina](apps/culina) (Cook's Notebook): a daily driver to get ideas, click dishes together, see what goes well together and the taste profile of the dish.
 - [Emptio](apps/emptio) (Shopping List): the household's shopping list.
 - [Household](apps/domus): the app at the root of the address where sync is set up once for all apps (spaces, storages, invites).
 - [materia](packages/model): the general model the apps share.
